@@ -1,0 +1,278 @@
+@font-face {
+    font-family: offTitle;
+    src: url(fuentes/bookish-off-white-regular.woff2);
+}
+@font-face {
+    font-family: offMain;
+    src: url(fuentes/IBMPlexMono-Regular.woff2);
+}
+
+html, body {
+    width:100%;
+    height:100%;
+    margin:0;
+    font-family: 'offMain';
+}
+
+
+/*
+HEADER
+*/
+.head {
+    width: 100%;
+    height: 7.7rem;
+    background-color: white;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.headerSuperior {
+    padding-top: 1.25rem;
+    padding-bottom: 2.5rem;
+}
+
+.langRegion {
+    width: 33.3%;
+    height: 2.5rem;
+    float: left;
+    font-size: 12px;
+}
+
+.country {
+    margin:0;
+    padding-left: 1rem;
+    margin-right: 78%;
+}
+
+.country:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.logo {
+    width: 33.3%;
+    height: 2.5rem;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.tools {
+    width: 33.3%;
+    height: 2.5rem;
+    float: left;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.toolsIMG {
+    height: 60%;
+    object-fit: contain;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+/* .headerInferior {
+
+} */
+
+.navMenu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top:1.25rem;
+    padding-bottom:1.25rem;
+}
+.navList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navli {
+    float:left;
+    padding-right: 2rem;
+}
+
+.navli:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+/*
+MAIN BODY
+*/
+.cuerpoMain {
+    width: 100%;
+    height: 275%;
+    padding-top: 7.7rem;
+}
+
+.showcase {
+    width: 100%;
+    height: 40rem;
+}
+
+.showcaseText {
+    width:50%;
+    height:6rem;
+    float: left;
+}
+.destacado {
+    margin: 0;
+    margin-right: 55%;  
+    font-family: offTitle;
+    font-weight: 400;
+    font-size: 2rem;
+    color: black;
+}
+.destacado:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    cursor: pointer;
+}
+
+.destacado2 {
+    margin: 0;
+    font-family: offMain;
+    font-weight: 400;
+    font-size: 1rem;
+    color: black;
+}
+
+.novedades {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height:50rem;
+}
+
+.nuevoDiv {
+    width: 100%;
+    height: 40rem;
+}
+
+.gallery {
+    width: auto;
+    height: 30rem;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+.itemTitle {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.itemTitle:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.itemDescription {
+    font-size: 12px;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.item {
+    width: calc((((100% - 0px) - 30rem) / 16) * 3.18 + 4.36rem + 0rem + 0px);
+    height: 100%;
+    float: left;
+    border-right: 1px solid rgb(214, 214, 214);
+}
+
+.itemIMG:hover {
+    cursor: pointer;
+}
+
+.arrow2:hover {
+    cursor: pointer;
+}
+
+.itemIMG {
+    width: 100%;
+}
+
+.extend {
+    width: 8rem;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow2 {
+    width: 30%;
+}
+.newsText {
+    margin: 0;
+    font-family: offMain;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    line-height: 0.1;
+}
+
+/*
+FOOTER
+*/
+.foot {
+    width: 100%;
+    height: 25rem;
+    background-color: white;
+    position: relative;
+}
+
+.about {
+    padding: 0 2rem;
+    padding-bottom: 2rem;
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+}
+
+.empresarial {
+    width: 100%;
+    height: 80%;
+    padding-left: 2rem;
+    box-sizing: border-box;
+}
+
+.emp {
+    float: left;
+    width: 33.3%;
+    height: 100%;
+}
+
+.empText {
+    line-height: 1.5;
+    list-style: none;
+    font-size: 15px;
+    padding: 0;
+    margin-top: 0;
+    padding-top: 16px;
+}
+
+.empTextP {
+    margin-bottom: 0;
+    font-weight: 900;
+}
+
+.empTextLi:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.empTextLi {
+    display: inline-block;
+}
